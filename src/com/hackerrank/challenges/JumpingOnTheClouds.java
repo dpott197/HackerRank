@@ -1,4 +1,4 @@
-package com.github.dpott197;
+package com.hackerrank.challenges;
 
 import java.io.*;
 import java.util.*;
