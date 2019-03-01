@@ -2,8 +2,20 @@ package com.hackerrank.challenges;
 
 public class TwoStrings {
 
+    static String twoStrings(String firstWord, String secondWord) {
+        String flag = "NO";
+
+        for(char c : "abcdefghijklmnopqrstuvwxyz".toCharArray()) {
+            if (firstWord.indexOf(c) > -1 && secondWord.indexOf(c) > -1) {
+                flag = "YES";
+            }
+        }
+
+        return flag;
+    }
+
     // Brute Force, Slow
-    static String twoStrings(String s1, String s2) {
+    static String twoStringsBrute(String s1, String s2) {
         if (s1 == null || s2 == null) {
             return "NO";
         }
