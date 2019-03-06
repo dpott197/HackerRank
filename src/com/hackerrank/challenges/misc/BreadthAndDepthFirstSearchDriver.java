@@ -2,7 +2,7 @@ package com.hackerrank.challenges.misc;
 
 import java.util.*;
 
-public class BreadthAndDepthFirstSearch {
+public class BreadthAndDepthFirstSearchDriver {
 
     public static class Node {
         int id;
@@ -13,7 +13,7 @@ public class BreadthAndDepthFirstSearch {
         }
     }
 
-    public static class BFS_DFS {
+    public static class BreadthAndDepthFirstSearch {
         Map<Integer, Node> nodeLookup = new HashMap<>();
 
         public Node getNode(int id) {
