@@ -2,7 +2,7 @@ package com.hackerrank.challenges.misc;
 
 import java.util.*;
 
-public class BfsDfs {
+public class BreadthAndDepthFirstSearch {
 
     public static class Node {
         int id;
